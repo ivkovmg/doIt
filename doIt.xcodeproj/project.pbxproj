@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BC20EFC51F47EEE3009E7688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFC41F47EEE3009E7688 /* AppDelegate.swift */; };
-		BC20EFC71F47EEE3009E7688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFC61F47EEE3009E7688 /* ViewController.swift */; };
+		BC20EFC71F47EEE3009E7688 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFC61F47EEE3009E7688 /* TasksViewController.swift */; };
 		BC20EFCA1F47EEE3009E7688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC20EFC81F47EEE3009E7688 /* Main.storyboard */; };
 		BC20EFCD1F47EEE3009E7688 /* doIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFCB1F47EEE3009E7688 /* doIt.xcdatamodeld */; };
 		BC20EFCF1F47EEE3009E7688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */; };
 		BC20EFD21F47EEE3009E7688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC20EFD01F47EEE3009E7688 /* LaunchScreen.storyboard */; };
 		BC20EFDA1F47F385009E7688 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFD91F47F385009E7688 /* task.swift */; };
+		BC20EFDC1F47FDB1009E7688 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFDB1F47FDB1009E7688 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC20EFC11F47EEE3009E7688 /* doIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC20EFC41F47EEE3009E7688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC20EFC61F47EEE3009E7688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC20EFC61F47EEE3009E7688 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		BC20EFC91F47EEE3009E7688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC20EFCC1F47EEE3009E7688 /* doIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = doIt.xcdatamodel; sourceTree = "<group>"; };
 		BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC20EFD11F47EEE3009E7688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC20EFD31F47EEE3009E7688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC20EFD91F47F385009E7688 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
+		BC20EFDB1F47FDB1009E7688 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BC20EFC41F47EEE3009E7688 /* AppDelegate.swift */,
-				BC20EFC61F47EEE3009E7688 /* ViewController.swift */,
+				BC20EFC61F47EEE3009E7688 /* TasksViewController.swift */,
+				BC20EFDB1F47FDB1009E7688 /* CreateTaskViewController.swift */,
 				BC20EFD91F47F385009E7688 /* task.swift */,
 				BC20EFC81F47EEE3009E7688 /* Main.storyboard */,
 				BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */,
@@ -144,9 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC20EFDA1F47F385009E7688 /* task.swift in Sources */,
-				BC20EFC71F47EEE3009E7688 /* ViewController.swift in Sources */,
+				BC20EFC71F47EEE3009E7688 /* TasksViewController.swift in Sources */,
 				BC20EFCD1F47EEE3009E7688 /* doIt.xcdatamodeld in Sources */,
 				BC20EFC51F47EEE3009E7688 /* AppDelegate.swift in Sources */,
+				BC20EFDC1F47FDB1009E7688 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
