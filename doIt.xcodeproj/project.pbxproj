@@ -13,6 +13,7 @@
 		BC20EFCD1F47EEE3009E7688 /* doIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFCB1F47EEE3009E7688 /* doIt.xcdatamodeld */; };
 		BC20EFCF1F47EEE3009E7688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */; };
 		BC20EFD21F47EEE3009E7688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC20EFD01F47EEE3009E7688 /* LaunchScreen.storyboard */; };
+		BC20EFDA1F47F385009E7688 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20EFD91F47F385009E7688 /* task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC20EFD11F47EEE3009E7688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC20EFD31F47EEE3009E7688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC20EFD91F47F385009E7688 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BC20EFC41F47EEE3009E7688 /* AppDelegate.swift */,
 				BC20EFC61F47EEE3009E7688 /* ViewController.swift */,
+				BC20EFD91F47F385009E7688 /* task.swift */,
 				BC20EFC81F47EEE3009E7688 /* Main.storyboard */,
 				BC20EFCE1F47EEE3009E7688 /* Assets.xcassets */,
 				BC20EFD01F47EEE3009E7688 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC20EFDA1F47F385009E7688 /* task.swift in Sources */,
 				BC20EFC71F47EEE3009E7688 /* ViewController.swift in Sources */,
 				BC20EFCD1F47EEE3009E7688 /* doIt.xcdatamodeld in Sources */,
 				BC20EFC51F47EEE3009E7688 /* AppDelegate.swift in Sources */,
