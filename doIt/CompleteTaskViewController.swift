@@ -17,10 +17,10 @@ class CompleteTaskViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        if task.blnImpt{
-            taskLabel.text = "‼️\(task.strName)" //DON'T KNOW WHY THERE IS A ?
+        if task.important{
+            taskLabel.text = "‼️\(task.name)" //DON'T KNOW WHY THERE IS A ?
         }else{
-            taskLabel.text = task.strName //DON'T KNOW WHY THERE IS A ?
+            taskLabel.text = task.name //DON'T KNOW WHY THERE IS A ?
         }
 
     }

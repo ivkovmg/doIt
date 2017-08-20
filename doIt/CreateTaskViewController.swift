@@ -27,8 +27,8 @@ class CreateTaskViewController: UIViewController {
         //Create Task From Outlet information
         
         let task = Task()
-        task.strName = taskNameTextField.text!
-        task.blnImpt = importantSwitch.isOn
+        task.name = taskNameTextField.text!
+        task.important = importantSwitch.isOn
     
         //Add new task to array in previous VC
         previousVC.tasks.append(task)
